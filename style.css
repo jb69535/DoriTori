@@ -1,0 +1,3 @@
+.section input[id*="slide"]{
+    display: none;
+}

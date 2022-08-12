@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DoriTori</title>
+    <meta name="author" content="Jun Beom"/>
+    <link rel="icon" type=image/png href="imgs/DoriTori.png"/>
+    <script
+      src="https://kit.fontawesome.com/6f42a7c997.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar_search">
+        <input type="text" placeholder="Search.."/>
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="navbar__logo">
+        <a href="#">
+          <img src="imgs/DoriTori-removebg-preview.png" alt="DoriTori logo"/>
+        </a>
+      </div>
+      <div class="navbar__menu">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item">Login</li>
+          <li class="navbar__menu__item">My Page</li>
+          <li class="navbar__menu__item">Shopping Bag</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Ads -->
+    <section id="ads">
+      <div class="ad">
+        <input type="radio" name="slide" id="slide01" checked/>
+        <input type="radio" name="slide" id="slide02"/>
+        <input type="radio" name="slide" id="slide03"/>
+        <div class="slidewrap">
+          <ul class="slidelist">
+            <li>
+              <div>
+                <label for="slide03" class="left"></label>
+                <a href="http://www.junportfolio.com">
+                  <img src="imgs/ads/Jun Beom.png" alt="JunBeomad"/>
+                  <label for="slide02" class="right"></label>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="slide01" class="left"></label>
+                <a href="https://www.uga.edu">
+                  <img
+                    src="imgs/ads/university-of-georgia-fermata-college-807506.png"
+                    alt="UniversityofGeoriga"
+                  />
+                  <label for="slide03" class="right"></label>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="https://www.jbedu.or.kr">
+                  <label for="slide02" class="left"></label>
+                  <img
+                    src="imgs/ads/SeoulInstitute-removebg-preview.png"
+                    alt="SeoulInstitute-removebg-preview"
+                  />
+                  <label for="slide01" class="right"></label>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Main -->
+    <section id="main"></section>
+    <!-- Contact -->
+    <section id="contact"></section>
+  </body>
+</html>
