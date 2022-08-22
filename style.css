@@ -1,27 +1,77 @@
 /* Global */
-:root{
-    /* Color */
-    --color-white: #ffffff;
-    --color-platinum: #EBEBEB;
-    --color-grey: #949494;
-    --color-blue-purple: #ACB9EC;
-    --color-middle-blue-green: #9CE7DE;
-    --color-jet: #333333;
-    --color-black: #000000;
-    --color-charm-pink: #E58BA3;
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-platinum: #ebebeb;
+  --color-grey: #949494;
+  --color-blue-purple: #acb9ec;
+  --color-middle-blue-green: #9ce7de;
+  --color-jet: #333333;
+  --color-black: #000000;
+  --color-charm-pink: #e58ba3;
 
-    /* Font Size */
-    --font-large: 40px;
-    --font-medium: 22px;
-    --font-regular: 15px;
-    --font-small: 12px;
-    --font-micro: 10px;
+  /* Font Size */
+  --font-large: 40px;
+  --font-medium: 22px;
+  --font-regular: 15px;
+  --font-small: 12px;
+  --font-micro: 10px;
 
-    /* Font Weight */
-    --weight-bold: 700;
-    --weight-semi-bold: 600;
-    --weight-regular: 400;
+  /* Font Weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
 
-    /* Border Size */
-    --size-border-radius: 4px;
+  /* Border Size */
+  --size-border-radius: 4px;
+}
+
+/* Universal */
+
+body {
+  background: var(--color-platinum);
+  margin: 0px;
+  font-family: "Audiowide", sans-serif;
+  cursor: default;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid var(--color-grey);
+}
+
+.navbar__search {
+  position: relative;
+  margin: 0%;
+}
+
+.navbar__logo {
+  text-align: center;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+.logo {
+  position: relative;
+  width: 50% 75px;
+  height: 75px;
+  margin: 0%;
+}
+
+.navbar__menu {
+  display: flex;
+  margin: 0%;
+}
+
+.navbar__menu__item {
+  position: relative;
+  padding: 0 30px 0 0;
+  cursor: pointer;
+  border-radius: var(--size-border-radius);
 }
