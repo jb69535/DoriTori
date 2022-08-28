@@ -1,5 +1,5 @@
-/*Ads
-Makes Ads move automatically*/ 
+/* Ads
+Makes Ads move automatically every 5s */ 
 var counter = 1;
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
