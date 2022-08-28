@@ -21,13 +21,6 @@
   <body>
     <!-- Navbar -->
     <nav id="navbar">
-      <!-- Search -->
-      <div class="navbar_search">
-        <input type="text" placeholder="Search.." />
-        <button type="submit">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </div>
       <!-- Logo with hyperlink -->
       <div class="navbar__logo">
         <a href="#">
@@ -38,12 +31,27 @@
           />
         </a>
       </div>
+      <!-- Search -->
+      <div class="navbar__search">
+        <div class="searchBar">
+          <input type="text" placeholder="Search.." />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
       <!-- Navbar menu -->
       <div class="navbar__menu">
         <ul class="navbar__menu">
-          <li class="navbar__menu__item">Login</li>
-          <li class="navbar__menu__item">My Page</li>
-          <li class="navbar__menu__item">Shopping Bag</li>
+          <li class="navbar__menu__item">
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </li>
+          <li class="navbar__menu__item">
+            <i class="fa-solid fa-user"></i>
+          </li>
+          <li class="navbar__menu__item">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </li>
         </ul>
       </div>
     </nav>
@@ -69,10 +77,7 @@
         </div>
         <div class="slide3">
           <a href="https://www.uga.edu">
-            <img
-              src="imgs/ads/UGA.png"
-              alt="UGA"
-            />
+            <img src="imgs/ads/UGA.png" alt="UGA" />
           </a>
         </div>
         <div class="slide4">
