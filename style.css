@@ -51,6 +51,11 @@ body {
   border-bottom: 1.5px solid var(--color-grey);
 }
 
+#navbar.navbar--dark {
+  background-color: var(--color-platinum);
+  margin-top: -5px;
+}
+
 .navbar__search {
   position: relative;
   width: 100%;
@@ -205,13 +210,10 @@ body {
   margin-right: auto;
   width: 930px;
 }
-.products_line1 {
+.products_line1,
+.products_line2,
+.products_line3 {
   display: flex;
-}
-
-.products_line2 {
-  display: flex;
-  justify-content: space-between;
 }
 
 .product1,
@@ -219,7 +221,10 @@ body {
 .product3,
 .product4,
 .product5,
-.product6 {
+.product6,
+.product7,
+.product8,
+.product9 {
   padding: 10px 5px 5px 5px;
 }
 .products img {
