@@ -273,3 +273,26 @@ body {
   .pages a:hover {
     color: var(--color-black);
   }
+
+  /* Side Bar */
+  
+  .sidebar {
+    position: sticky;
+    display: block;
+    width: 150px;
+    height: 200px;
+    margin: 0%;
+    margin-right: 20px;
+    float: right;
+    border-radius: var(--size-border-radius);
+    border: 2px solid var(--color-charm-pink);
+  }
+
+  .sidebar__menu {
+    position: relative;
+  }
+
+  .sidebar li{
+    color: var(--color-jet);
+    padding: 15px 0 15px 0; 
+  }

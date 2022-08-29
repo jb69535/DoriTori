@@ -1,4 +1,5 @@
 'use strict';
+
 /* Navbar
 Scrolling acts */
 // Make navbar trasparent when it is on the top.
