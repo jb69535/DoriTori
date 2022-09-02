@@ -279,20 +279,39 @@ body {
   .sidebar {
     position: sticky;
     display: block;
-    width: 150px;
+    top: 90px;
+    width: 10%;
     height: 200px;
     margin: 0%;
     margin-right: 20px;
+    margin-left: 20px;
     float: right;
     border-radius: var(--size-border-radius);
     border: 2px solid var(--color-charm-pink);
   }
 
   .sidebar__menu {
-    position: relative;
+    position: sticky;
   }
 
   .sidebar li{
     color: var(--color-jet);
     padding: 15px 0 15px 0; 
+  }
+
+  /* ETC */
+
+  #etc {
+    color: var(--color-grey);
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 15px;
+  }
+
+  .contact h1, a {
+    padding-right: 5px;
+  }
+
+  .source__code i:hover {
+    color: var(--color-middle-blue-green);
   }
